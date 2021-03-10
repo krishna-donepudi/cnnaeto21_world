@@ -4,7 +4,6 @@ class Photo < ApplicationRecord
   
   # Relationships
   belongs_to :category
-  
   # Validations
   validates_presence_of :caption
   
